@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+
+
+
+@layer utilities {
+  .task-dishes { @apply bg-blue-50; }
+  .task-trash { @apply bg-indigo-50; }
+  .task-sweep { @apply bg-yellow-50; }
+  .task-bathroom { @apply bg-teal-50; }
+  .task-counters { @apply bg-lime-50; }
+  .task-shoes { @apply bg-red-50; }
+  .task-living { @apply bg-purple-50; }
+  .task-rerack { @apply bg-cyan-50; }
+  .task-table { @apply bg-amber-50; }
+}
